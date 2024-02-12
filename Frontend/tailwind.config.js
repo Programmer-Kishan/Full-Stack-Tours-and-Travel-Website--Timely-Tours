@@ -10,6 +10,7 @@ export default {
         Montserrat: ['Montserrat', 'sans-serif'],
         Poppins: ['Poppins', 'sans-serif'],
         Roboto: ['Roboto Condensed', 'sans-serif'],
+        'Roboto-Mono': ["Roboto Mono", 'monospace']
       },
       backgroundImage: {
         'nature-pattern': "url(./src/assets/Images/Nature.jpg)"
