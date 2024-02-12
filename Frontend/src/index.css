@@ -3,3 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+  .nav-link {
+    @apply text-lg font-Poppins text-white transition-all hover:font-bold hover:scale-110
+  }
+}

@@ -12,14 +12,14 @@ const Navbar = () => {
             </div>
             <div className='ml-[80px]'>
                 <ul className='flex justify-evenly gap-16'>
-                    <li className='text-lg font-Poppins text-white'><a href="#">Home</a></li>
-                    <li className='text-lg font-Poppins text-white'><a href="#">About</a></li>
-                    <li className='text-lg font-Poppins text-white'><a href="#">Services</a></li>
-                    <li className='text-lg font-Poppins text-white'><a href="#">Contact Us</a></li>
+                    <li className='nav-link'><a href="#">Home</a></li>
+                    <li className='nav-link'><a href="#">About</a></li>
+                    <li className='nav-link'><a href="#">Services</a></li>
+                    <li className='nav-link'><a href="#">Contact Us</a></li>
                 </ul>
             </div>
             <div className='flex gap-5'>
-                <Button type="button" className='text-black bg-white'>SignUp</Button>
+                <Button type="button" className='text-black bg-white transition-all hover:rounded-md'>SignUp</Button>
             </div>
         </nav>
     </div>
