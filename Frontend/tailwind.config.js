@@ -14,6 +14,18 @@ export default {
       },
       backgroundImage: {
         'nature-pattern': "url(./src/assets/Images/Nature.jpg)"
+      },
+      screens: {
+        'tablet': "835px"
+      },
+      keyframes: {
+        down: {
+          '0%': {top: '-100%'},
+          '100%': {top: '0'},
+        }
+      },
+      animation: {
+        'go-down': 'down 3s ease-in-out',
       }
     },
   },
